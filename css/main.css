@@ -29,13 +29,22 @@ html {
 
 main {
   max-width: 40em;
-  margin: 0 auto;
-  padding: 8em 2em;
+  margin: 4em auto;
   text-align: center;
 }
 
 .logo {
+  width: 300px;
   max-width: 100%;
+}
+
+#menu-container {
+  max-width: 40em;
+  margin: 0 auto;
+}
+
+#menu-container .menu-info, #menu-container .section-heading {
+  display: none;
 }
 
 /*

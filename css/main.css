@@ -29,7 +29,7 @@ html {
 
 main {
   max-width: 40em;
-  margin: 4em auto;
+  margin: 4em auto 1em auto;
   text-align: center;
 }
 
@@ -43,8 +43,21 @@ main {
   margin: 0 auto;
 }
 
-#menu-container .menu-info, #menu-container .section-heading {
+#menu-container .menu-info,
+#menu-container .section-heading {
   display: none;
+}
+
+.hours {
+  margin: 0 auto;
+}
+.hours th {
+  text-align: right;
+  font-weight: normal;
+}
+.hours td {
+  padding-left: 0.5em;
+  text-align: left;
 }
 
 /*
